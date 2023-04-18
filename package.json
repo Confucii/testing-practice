@@ -1,0 +1,36 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Odin project jest testing practice",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Confucii/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Confucii/testing-practice/issues"
+  },
+  "homepage": "https://github.com/Confucii/testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.6",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
