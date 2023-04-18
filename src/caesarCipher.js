@@ -13,7 +13,7 @@ function translateLetter(letter, shift) {
 }
 
 export default function caesarCipher(str, shift) {
-  const alphabetical = str.replace(/[^a-zA-Z\s]/g, "").split("");
+  const alphabetical = str.split("");
   let cipher = alphabetical;
   let shiftNum = shift ? shift % 26 : 0;
 
