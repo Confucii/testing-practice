@@ -1,3 +1,7 @@
 export default function capitalize(str) {
-  return "A";
+  let cap = "";
+  if (str) {
+    cap += str[0].toUpperCase() + str.slice(1);
+  }
+  return cap;
 }
